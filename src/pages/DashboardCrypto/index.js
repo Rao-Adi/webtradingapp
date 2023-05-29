@@ -27,6 +27,9 @@ const DashboardCrypto = () => {
                             </Row>
                         </Col>
                         <RecentActivity />
+
+
+                        
                     </Row>
                     <Row>
                         <Widgets1 />
