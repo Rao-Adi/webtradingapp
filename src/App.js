@@ -12,6 +12,9 @@ import Route from './Routes';
 // Fake Backend 
 import fakeBackend from "./helpers/AuthType/fakeBackend";
 
+//custome scss
+import './index.scss';
+
 // Activating fake backend
 fakeBackend();
 

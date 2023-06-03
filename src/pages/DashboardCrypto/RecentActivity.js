@@ -9,15 +9,27 @@ import SimpleBar from "simplebar-react";
 import { Link } from 'react-router-dom';
 
 import TopPerformers from './TopPerformers';
+import OrderBook from './OrderBook';
 
 const RecentActivity = () => {
     return (
         <React.Fragment>
-            <Col xxl={4} lg={5}>
+            <Col xxl={3} lg={3}>
                 <Card className="card-height-100">
                     <CardHeader className="card-header align-items-center d-flex">
-                        <h4 className="card-title mb-0 flex-grow-1">Order Book(MBO/MBP)</h4>
-                        <div className="flex-shrink-0">
+                        {/* <div className="d-flex gap-1">
+                            <p className="mb-0 flex-grow-1">Order Book(MBO/MBP)</p>
+                            <button type="button" className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode">
+                                <i className="bx bx-grid-horizontal fs-22"></i>
+                            </button>
+                            <button type="button" className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode">
+                                <i className="bx bx-grid-vertical fs-22"></i>
+                            </button>
+                            <button type="button" className="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle light-dark-mode">
+                                <i className="bx bx-grid-small fs-22"></i>
+                            </button>
+                        </div> */}
+                        {/* <div className="flex-shrink-0">
                             <UncontrolledDropdown className="card-header-dropdown">
                                 <DropdownToggle tag="a" className="text-reset dropdown-btn" role="button">
                                     <span className="fw-semibold text-uppercase fs-12">Sort by: </span><span className="text-muted">Current Week<i className="mdi mdi-chevron-down ms-1"></i></span>
@@ -29,19 +41,15 @@ const RecentActivity = () => {
                                     <DropdownItem>Current Year</DropdownItem>
                                 </DropdownMenu>
                             </UncontrolledDropdown>
-                        </div>
+                        </div> */}
                     </CardHeader>
                     <CardBody className="p-0">
                         <table className="table table-bordered table-nowrap mb-0">
                             <tbody>
                                 <tr>
                                     <th className="text-nowrap" scope="row">
-                                        <TopPerformers />
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th className="text-nowrap" scope="row">
-                                        <TopPerformers />
+                                        {/* <TopPerformers /> */}
+                                        <OrderBook />
                                     </th>
                                 </tr>
                             </tbody>

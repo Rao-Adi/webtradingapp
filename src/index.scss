@@ -1,0 +1,23 @@
+.order-book-sm table {
+    font-size: 10px;
+    font-weight: 200px;
+}
+
+.orderbook-list .ask-light {
+    color: rgb(14, 203, 129);
+}
+
+.order-book-sm .orderbook-progress .progress-bar {
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    height: 20px;
+    opacity: 0.1;
+    width: 100%;
+    left: 100%;
+}
+
+.order-book-sm .orderbook-list .ask-bar {
+    background-color: rgb(14, 203, 129);
+}
+
